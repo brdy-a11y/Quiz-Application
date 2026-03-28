@@ -16,6 +16,7 @@ class QuizApp:
         self.current_q_index = 0
         self.timer_sec = 15
         self.questions = []
+        
         self.timer_running = False
 
         # Load questions from JSON file
