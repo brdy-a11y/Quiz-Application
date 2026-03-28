@@ -42,7 +42,3 @@ The **Interactive Quiz App** is a user-friendly desktop application designed to 
 * `leaderboard.txt` – A data file used to store and retrieve user performance records.
 
 ---
-
-## 🚀 Installation & Execution
-
-Follow these steps to set up and run the application on your local machine:
