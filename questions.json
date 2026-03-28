@@ -1,0 +1,31 @@
+{
+    "Python": [
+        {
+            "q": "Python mein 'List' mutable hoti hai ya immutable?",
+            "options": ["Mutable", "Immutable"],
+            "ans": "Mutable"
+        },
+        {
+            "q": "Python ko kisne develop kiya tha?",
+            "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"],
+            "ans": "Guido van Rossum"
+        },
+        {
+            "q": "Python mein comment likhne ke liye kaunsa symbol use hota hai?",
+            "options": ["//", "/*", "#", "--"],
+            "ans": "#"
+        }
+    ],
+    "GK": [
+        {
+            "q": "India ki Rajdhani (Capital) kya hai?",
+            "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+            "ans": "New Delhi"
+        },
+        {
+            "q": "Duniya ka sabse uncha pahad kaunsa hai?",
+            "options": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+            "ans": "Mount Everest"
+        }
+    ]
+}
