@@ -73,7 +73,7 @@ class QuizApp:
 
         # Variable to store selected option
         self.var_opt = tk.StringVar()
-
+# hello isse karo jor se
         # Option buttons (Radio buttons styled as normal buttons)
         self.options_buttons = []
         for i in range(4):
