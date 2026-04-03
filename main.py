@@ -4,7 +4,7 @@ import json
 import random
 
 class QuizApp:
-    def __init__(self, root):
+    def __init__(self, root): #constructor
         # Main window setup
         self.root = root
         self.root.title("Quiz Application")
@@ -16,7 +16,6 @@ class QuizApp:
         self.current_q_index = 0
         self.timer_sec = 15
         self.questions = []
-        # 7yrjf
         self.timer_running = False
 
         # Load questions from JSON file
@@ -73,7 +72,6 @@ class QuizApp:
 
         # Variable to store selected option
         self.var_opt = tk.StringVar()
-# hello isse karo jor se
         # Option buttons (Radio buttons styled as normal buttons)
         self.options_buttons = []
         for i in range(4):
@@ -99,7 +97,7 @@ class QuizApp:
                                  bg="green",
                                  fg="white",
                                  width=20)
-        self.btn_next.pack(pady=20)
+        self.btn_next.pack(pady=40)
 
     # Function to start quiz after selecting category
     def start_quiz(self, category):
