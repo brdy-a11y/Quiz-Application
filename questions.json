@@ -1,31 +1,83 @@
 {
     "Python": [
-        {
-            "q": "Python mein 'List' mutable hoti hai ya immutable?",
-            "options": ["Mutable", "Immutable"],
-            "ans": "Mutable"
-        },
-        {
-            "q": "Python ko kisne develop kiya tha?",
-            "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"],
-            "ans": "Guido van Rossum"
-        },
-        {
-            "q": "Python mein comment likhne ke liye kaunsa symbol use hota hai?",
-            "options": ["//", "/*", "#", "--"],
-            "ans": "#"
-        }
-    ],
+    {
+        "q": "Which keyword is used to define a function in Python?",
+        "options": ["func", "define", "def", "function"],
+        "ans": "def"
+    },
+    {
+        "q": "Which data type is used to store text in Python?",
+        "options": ["int", "str", "bool", "list"],
+        "ans": "str"
+    },
+    {
+        "q": "What will len([1, 2, 3, 4]) return?",
+        "options": ["3", "4", "5", "Error"],
+        "ans": "4"
+    },
+    {
+        "q": "Which of the following is used to take input from the user in Python?",
+        "options": ["scan()", "input()", "get()", "read()"],
+        "ans": "input()"
+    },
+    {
+        "q": "Which symbol is used for exponentiation in Python?",
+        "options": ["^", "**", "//", "%"],
+        "ans": "**"
+    }
+],
     "GK": [
-        {
-            "q": "India ki Rajdhani (Capital) kya hai?",
-            "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
-            "ans": "New Delhi"
-        },
-        {
-            "q": "Duniya ka sabse uncha pahad kaunsa hai?",
-            "options": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
-            "ans": "Mount Everest"
-        }
-    ]
+    {
+        "q": "What is the national animal of India?",
+        "options": ["Lion", "Tiger", "Elephant", "Horse"],
+        "ans": "Tiger"
+    },
+    {
+        "q": "From which direction does the sun rise?",
+        "options": ["North", "South", "East", "West"],
+        "ans": "East"
+    },
+    {
+        "q": "What is the national flower of India?",
+        "options": ["Rose", "Lotus", "Sunflower", "Jasmine"],
+        "ans": "Lotus"
+    },
+    {
+        "q": "Which is the largest ocean in the world?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "ans": "Pacific Ocean"
+    },
+    {
+        "q": "What is the national bird of India?",
+        "options": ["Peacock", "Pigeon", "Swan", "Sparrow"],
+        "ans": "Peacock"
+    }
+],
+"Mathematics": [
+    {
+        "q": "What is the time complexity of binary search?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "ans": "O(log n)"
+    },
+    {
+        "q": "What is the sum of first n natural numbers?",
+        "options": ["n(n+1)/2", "n(n-1)/2", "n^2", "2n"],
+        "ans": "n(n+1)/2"
+    },
+    {
+        "q": "What is the greatest common divisor (GCD) of 12 and 18?",
+        "options": ["2", "3", "6", "9"],
+        "ans": "6"
+    },
+    {
+        "q": "What is 2^5 equal to?",
+        "options": ["10", "16", "32", "64"],
+        "ans": "32"
+    },
+    {
+        "q": "Which of the following is a prime number?",
+        "options": ["9", "15", "17", "21"],
+        "ans": "17"
+    }
+]
 }
