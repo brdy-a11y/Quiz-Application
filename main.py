@@ -102,7 +102,7 @@ class QuizApp:
     # Function to start quiz after selecting category
     def start_quiz(self, category):
         self.questions = self.data[category]
-        random.shuffle(self.questions)  # Shuffle questions
+        random.shuffle(self.questions)  # ShuffleS the questions
 
         self.cat_frame.pack_forget()  # Hide category screen
         self.quiz_frame.pack()        # Show quiz screen
